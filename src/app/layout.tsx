@@ -1,18 +1,11 @@
-// app/layout.tsx or src/app/layout.tsx
 import './globals.css';
 import { Inter } from 'next/font/google';
-import type { Metadata } from 'next';
 import Head from 'next/head';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
-  title: 'Geothermine',
-  description: 'Geothermine is pioneering a sustainable future by merging geothermal energy with cutting-edge crypto mining technology.',
-};
 
 export default function RootLayout({
   children,
@@ -22,9 +15,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        {/* If using PNG, uncomment below */}
-        {/* <link rel="icon" href="/favicon.png" type="image/png" /> */}
+        <link rel="icon" href={'/favicon.ico'} type="image/x-icon" />
+        <title>Geothermine</title>
+        <meta
+          name="description"
+          content="Geothermine is pioneering a sustainable future by merging geothermal energy with cutting-edge crypto mining technology."
+        />
       </Head>
       <body className={inter.className}>
         <Header />
