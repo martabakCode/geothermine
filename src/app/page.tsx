@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import '../app/style.css';
 
 export default function Home() {
   return (
@@ -44,14 +43,14 @@ export default function Home() {
                 </div>
                 <div>
                     <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-yellow-100 lg:h-12 lg:w-12 dark:bg-yellow-900">
-                      <svg className="w-5 h-5 text-yellow-600 lg:w-6 lg:h-6 dark:text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" /></svg>
+                      <svg className="w-5 h-5 text-yellow-600 lg:w-6 lg:h-6 dark:text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round"  strokeLinejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" /></svg>
                     </div>
                     <h3 className="mb-2 text-xl font-bold dark:text-white">Maximized Efficiency</h3>
                     <p className="text-gray-500 dark:text-gray-400">Transforming excess power into profitable outcomes with minimal environmental impact.</p>
                 </div>
                 <div>
                     <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-yellow-100 lg:h-12 lg:w-12 dark:bg-yellow-900">
-                      <svg className="w-5 h-5 text-yellow-600 lg:w-6 lg:h-6 dark:text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" /></svg>
+                      <svg className="w-5 h-5 text-yellow-600 lg:w-6 lg:h-6 dark:text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor"><path strokeLinecap="round"  strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" /></svg>
                     </div>
                     <h3 className="mb-2 text-xl font-bold dark:text-white">Reliable and Secure</h3>
                     <p className="text-gray-500 dark:text-gray-400">Our robust infrastructure ensures continuous, secure operations with high returns.</p>
