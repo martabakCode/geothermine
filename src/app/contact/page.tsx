@@ -5,7 +5,7 @@ export default function Home() {
         <section className="bg-white dark:bg-yellow-700">
             <div className="py-8 px-4 mx-auto lg:py-16 lg:px-12">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white sm:px-16 xl:px-24">Get in Touch with Us</h1>
-                <p className="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 xl:px-24 dark:text-gray-100">We're here to help you take the next step towards a sustainable and profitable future. Whether you have questions, need more information, or are ready to start your project, our team at Geothermine is ready to assist you.</p>
+                <p className="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 xl:px-24 dark:text-gray-100">We&rsquo;re here to help you take the next step towards a sustainable and profitable future. Whether you have questions, need more information, or are ready to start your project, our team at Geothermine is ready to assist you.</p>
             </div>
         </section>
         <section className="bg-white dark:bg-black">

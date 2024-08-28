@@ -90,7 +90,7 @@ export default function Home() {
                         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                             <div className="max-w-screen-md">
                                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Journey</h2>
-                                <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Geothermine started as a bold idea—an ambitious vision to merge the worlds of renewable energy and cryptocurrency. Since our founding, we've been driven by the desire to make a positive impact on the world. Through relentless innovation and a commitment to sustainability, we have grown from a small startup to a key player in the renewable energy and crypto space.</p>
+                                <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">Geothermine started as a bold idea—an ambitious vision to merge the worlds of renewable energy and cryptocurrency. Since our founding, we&rsquo;ve been driven by the desire to make a positive impact on the world. Through relentless innovation and a commitment to sustainability, we have grown from a small startup to a key player in the renewable energy and crypto space.</p>
                             </div>
                         </div>
                     </section>

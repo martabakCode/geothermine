@@ -5,7 +5,7 @@ export default function Home() {
         <section className="bg-white dark:bg-yellow-700">
             <div className="py-8 px-4 mx-auto lg:py-16 lg:px-12">
                 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white sm:px-16 xl:px-24">Our Comprehensive Services</h1>
-                <p className="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 xl:px-24 dark:text-gray-100">At Geothermine, we provide a range of specialized services designed to maximize the efficiency and profitability of your geothermal and crypto mining projects. From consultation to ongoing maintenance, our expert team is here to support you every step of the way."</p>
+                <p className="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 xl:px-24 dark:text-gray-100">At Geothermine, we provide a range of specialized services designed to maximize the efficiency and profitability of your geothermal and crypto mining projects. From consultation to ongoing maintenance, our expert team is here to support you every step of the way.</p>
             </div>
         </section>
         <section className="bg-white dark:bg-black">
@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
                     <div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Feasibility Studies</h3>
-                        <p className="text-gray-500 dark:text-gray-400">Comprehensive analysis of your project's potential, including site assessment and resource evaluation.</p>
+                        <p className="text-gray-500 dark:text-gray-400">Comprehensive analysis of your project&rsquo;s potential, including site assessment and resource evaluation.</p>
                     </div>
                     <div>
                         <h3 className="mb-2 text-xl font-bold dark:text-white">Economic Forecasting</h3>
