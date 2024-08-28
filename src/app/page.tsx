@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import '../app/style.css';
 
 export default function Home() {
   return (
@@ -23,7 +25,7 @@ export default function Home() {
                   </a>
               </div>
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                  <img src={'/assets/hero.png'} alt="mockup"/>
+                  <Image src={'/assets/hero.png'} alt="mockup" className='custom-image' width={500} height={300}/>
               </div>                
           </div>
       </section>

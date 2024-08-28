@@ -1,0 +1,6 @@
+.custom-image {
+    width: auto;     /* Width adjusts automatically based on height */
+    height: 100%;    /* Height is 100% of the parent container (h-12) */
+    object-fit: contain; /* Ensures the entire image is visible within the container */
+  }
+  

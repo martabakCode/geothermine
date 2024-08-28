@@ -1,4 +1,5 @@
-
+import Image from 'next/image';
+import '../style.css';
 export default function Home() {
     return (
       <div className="flex flex-col min-h-screen mt-10">
@@ -26,28 +27,36 @@ export default function Home() {
                     </div> 
                     <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                         <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img className="mx-auto mb-4 w-36 rounded" src={'/assets/Ghozi.png'} alt="Ghozi Avatar"/>
+                            <div className='mx-auto mb-4 w-36 rounded'>
+                            <Image width={300} height={500} className="custom-image" src={'/assets/Ghozi.png'} alt="Ghozi Avatar"/>
+                            </div>
                             <h3 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
                                 <a href="#">Ghozi Abid Prayoga</a>
                             </h3>
                             <p className="text-gray-900 dark:text-gray-200">CEO & Founder</p>
                         </div>
                         <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img className="mx-auto mb-4 w-36 rounded" src={'/assets/Rakha.png'} alt="Rakha Avatar"/>
+                            <div className='mx-auto mb-4 w-36 rounded'>
+                            <Image width={300} height={500} className="custom-image" src={'/assets/Rakha.png'} alt="Rakha Avatar"/>
+                            </div>
                             <h3 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
                                 <a href="#">Rakha Aryan  Maulan Hakim</a>
                             </h3>
                             <p className="text-gray-900 dark:text-gray-200">CTO & Co-Founder</p>
                         </div>
                         <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img className="mx-auto mb-4 w-36 rounded" src={'/assets/Rinndy.png'} alt="Rinndy Avatar"/>
+                            <div className='mx-auto mb-4 w-36 rounded'>
+                            <Image width={300} height={500} className="custom-image" src={'/assets/Rinndy.png'} alt="Rinndy Avatar"/>
+                            </div>
                             <h3 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
                                 <a href="#">Rinndy Antika Dwi Purnama  </a>
                             </h3>
                             <p className="text-gray-900 dark:text-gray-200">COO & Co-Founder</p>
                         </div>
                         <div className="text-center text-gray-500 dark:text-gray-400">
-                            <img className="mx-auto mb-4 w-36 rounded" src={'/assets/Athaya.png'} alt="Athaya Avatar"/>
+                            <div className='mx-auto mb-4 w-36 rounded'>
+                            <Image width={300} height={500} className="custom-image" src={'/assets/Athaya.png'} alt="Athaya Avatar"/>
+                            </div>
                             <h3 className="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
                                 <a href="#">Athaya Nisrina Mansoor</a>
                             </h3>
