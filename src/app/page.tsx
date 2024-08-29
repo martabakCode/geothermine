@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen mt-10">
-      <section className="bg-center bg-no-repeat bg-[url('https://www.fajarmasmurni.com/public/assets/images/productnsolution/fajarmasmurni_solutions_04_Coal_Fired_Geothermal_Power_Plant.jpg')] bg-gray-700 bg-blend-multiply">
+      <section className="bg-center bg-no-repeat bg-[url('https://www.geothermine.my.id/assets/20240828_220747_0000.jpg')] bg-gray-700 bg-blend-multiply">
           <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
               <h1 className="mb-8 text-4xl font-medium tracking-wide leading-none text-white md:text-5xl lg:text-6xl">Powering The Futures With Clean Energy & Smart Investment</h1>
               <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
@@ -13,7 +13,15 @@ export default function Home() {
               </div>
           </div>
       </section>
-
+      <div className="relative w-full h-16 lg:h-24 left-1.5 z-10">
+        <Image
+          src={'/assets/png_20240828_220907_0000.png'}
+          alt="mockup"
+          className='custom-image'
+          width={500}
+          height={300}
+        />
+      </div>
       <section className="bg-white dark:bg-black">
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div className="mr-auto place-self-center lg:col-span-7">
@@ -28,7 +36,7 @@ export default function Home() {
               </div>                
           </div>
       </section>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-center bg-no-repeat bg-[url('https://www.geothermine.my.id/assets/20240828_220559_0000.jpg')] bg-gray-700 bg-blend-multiply">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="mb-8 lg:mb-16">
                 <h2 className="mb-4 text-4xl tracking-tight text-center font-extrabold text-gray-900 dark:text-white">Why Choose <span className="text-yellow-100">Geothermine?</span></h2>
